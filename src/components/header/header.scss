@@ -1,0 +1,174 @@
+.header {
+	display: flex;
+	padding-top: 30px;
+}
+
+.ml_25 {
+	margin-left: 25px;
+}
+
+.logo__container {
+	width: 104px;
+	height: 66px;
+
+	.logo {
+		h1 {
+			font-family: "RobotoBlack";
+			font-size: 30px;
+			line-height: 110.19%;
+			letter-spacing: -0.045em;
+			color: #ffffff;
+		}
+	}
+}
+
+.contact__container {
+	display: flex;
+	margin-left: 134px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.16);
+	padding-bottom: 20px;
+
+	h1 {
+		font-family: "RobotoBold";
+		font-size: 18px;
+		line-height: 143.69%;
+		color: #ffffff;
+	}
+}
+
+.menu {
+	margin-top: 20px;
+	margin-left: 134px;
+
+	ul {
+		display: flex;
+
+		li {
+			padding-right: 34px;
+			font-family: "RobotoRegular";
+			font-size: 16px;
+			line-height: 143.69%;
+			color: #ffffff;
+			opacity: 0.6;
+			cursor: pointer;
+			.centr {
+				text-align: center;
+				display: none;
+			}
+			&:hover {
+				opacity: 1;
+				.centr {
+					text-align: center;
+					display: block;
+					margin-bottom: -25px;
+				}
+			}
+		}
+	}
+}
+
+.nav__container {
+	margin-left: 210px;
+
+	.nav__icon {
+		display: flex;
+		justify-content: space-between;
+
+		span {
+			margin-left: 24px;
+			cursor: pointer;
+		}
+	}
+}
+
+@media screen and (max-width: 1540px) {
+	.contact__container {
+		margin-left: 80px;
+	}
+
+	.nav__container {
+		margin-left: 70px;
+	}
+
+	.menu {
+		margin-left: 80px;
+	}
+}
+@media screen and (max-device-width: 393px) {
+	.header {
+		padding-top: 10px;
+		display: inline-block;
+	}
+
+	.logo__container {
+		.logo {
+			h1 {
+				font-family: "RobotoBlack";
+				font-size: 20px;
+				line-height: 109.19%;
+				letter-spacing: -0.045em;
+				color: #ffffff;
+			}
+		}
+	}
+
+	.contact__container {
+		display: inline-block;
+		border-bottom: none;
+		margin-top: 9px;
+		margin-left: 0;
+		h1 {
+			font-family: "RobotoRegular";
+			font-size: 18px;
+			line-height: 143.69%;
+			color: #ffffff;
+			padding-bottom: 5px;
+		}
+	}
+
+	.menu {
+		margin-top: 0px;
+		margin-left: 0px;
+		ul {
+			display: inline-table;
+
+			li {
+				text-align: left;
+				display: inline-table;
+				padding-top: 10px;
+				margin-left: 30px;
+				font-family: "RobotoRegular";
+				font-size: 16px;
+				line-height: 143.69%;
+				color: #ffffff;
+				opacity: 0.6;
+				cursor: pointer;
+				.centr {
+					text-align: center;
+					display: none;
+				}
+				&:hover {
+					opacity: 1;
+					.centr {
+						text-align: center;
+						margin-bottom: -25px;
+					}
+				}
+			}
+		}
+	}
+
+	.nav__container {
+		.nav__icon {
+			display: none !important;
+
+			span {
+				margin-left: 24px;
+				cursor: pointer;
+			}
+		}
+	}
+	.ml_25 {
+		margin-left: 0;
+	}
+}

@@ -1,0 +1,265 @@
+.company-slider {
+	display: flex;
+	margin-top: 200px;
+}
+
+.company-container {
+	width: 433px;
+	height: 271px;
+	overflow: hidden;
+	position: relative;
+}
+
+.company-slide img {
+	width: 433px;
+	height: 271px;
+	overflow: hidden;
+}
+
+.company-container-it {
+	width: 433px;
+	height: 271px;
+	margin-top: 50px;
+	overflow: hidden;
+}
+
+.company-slider-row {
+	background: url("../../../img/Mack.png") no-repeat;
+	width: 628px;
+	height: 385px;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+}
+
+.company-slider-wrap {
+	width: 433px;
+	height: 321px;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+	margin-left: 100px;
+}
+
+.info {
+	margin-top: -180px;
+	position: relative;
+	cursor: pointer;
+
+	img {
+		width: 44px;
+		height: 44px;
+		margin-left: 190px;
+	}
+
+	h1 {
+		font-family: "RobotoBold";
+		width: 238px;
+		height: 44px;
+		margin-top: 10px;
+		margin-left: 96px;
+		font-size: 18px;
+		line-height: 121.19%;
+		text-align: center;
+		color: #ffffff;
+	}
+}
+
+.company-slider-inner {
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	transition: 0.6s;
+	overflow: hidden;
+	display: flex;
+}
+
+.company-container1 {
+	width: 282px;
+	height: 260px;
+	position: relative;
+	cursor: pointer;
+}
+
+.company-slider-wrap1 {
+	margin-top: 55px;
+	margin-left: -210px;
+	overflow: hidden;
+	width: 282px;
+	height: 260px;
+	border-radius: 20px;
+	z-index: 8;
+}
+
+.company-slider-inner1 {
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	transition: 0.6s;
+	overflow: hidden;
+	display: flex;
+}
+
+.info1 {
+	margin-left: 32px;
+	margin-top: -82px;
+	position: relative;
+	cursor: pointer;
+	img {
+		margin-left: 170px;
+	}
+}
+
+.company-container2 {
+	width: 282px;
+	height: 227px;
+	overflow: hidden;
+}
+
+.company-slider-wrap2 {
+	margin-top: 70px;
+	margin-left: -190px;
+	overflow: hidden;
+	width: 282px;
+	height: 227px;
+	border-radius: 20px;
+}
+
+.company-slider-inner2 {
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	transition: 0.6s;
+	overflow: hidden;
+	display: flex;
+}
+
+.info2 {
+	margin-left: 42px;
+	margin-top: -102px;
+	position: relative;
+	cursor: pointer;
+
+	img {
+		margin-left: 170px;
+	}
+}
+
+.company-slider-indicators {
+	margin-top: 390px;
+	position: absolute;
+	z-index: 15;
+	display: flex;
+	margin-left: 270px;
+	list-style: none;
+}
+
+.company-slider-indicators li {
+	background: url("../../../img/dots1.png") no-repeat;
+	width: 13px;
+	height: 13px;
+	margin-right: 7px;
+	margin-left: 7px;
+	cursor: pointer;
+}
+
+.company-slider-indicators .active {
+	background: url("../../../img/dots2.png") no-repeat;
+	opacity: 1;
+	width: 17px;
+	height: 17px;
+	margin-top: -2px;
+}
+
+@media (max-width: 1540px) {
+	.company-slider {
+		margin-top: 100px;
+	}
+	.company-slider-row {
+		width: 602px;
+	}
+	.company-slider-wrap1 {
+		display: none;
+	}
+	.company-slider-wrap2 {
+		display: none;
+	}
+}
+@media screen and (max-device-width: 393px) {
+	.company-slider {
+		display: flex;
+		margin-top: 20px;
+		margin-left: 150px;
+	}
+	.company-slider-row {
+		background: url("../../../img/small/mack.png") no-repeat;
+		width: 336px;
+		height: 206px;
+		overflow: hidden;
+		position: relative;
+		z-index: 10;
+	}
+	.company-container {
+		width: 230px;
+		height: 194px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.company-slide img {
+		width: 230px;
+		height: 194px;
+		overflow: hidden;
+	}
+
+	.company-container-it {
+		width: 230px;
+		height: 194px;
+		overflow: hidden;
+	}
+	.company-slider-wrap {
+		width: 230px;
+		height: 194px;
+		overflow: hidden;
+		position: relative;
+		z-index: 10;
+		margin-left: 54px;
+		margin-top: -23px;
+	}
+
+	.info {
+		margin-top: -180px;
+		position: relative;
+		cursor: pointer;
+
+		img {margin-top: 30px;
+			margin-left: 105px;
+			width: 25px;
+			height: 25px;
+		}
+
+		h1 {
+			font-family: "RobotoBold";
+			margin-left: 5px;
+			width: 220px;
+			height: 44px;
+			font-size: 16px;
+			line-height: 121.19%;
+			text-align: center;
+			color: #ffffff;
+		}
+	}
+
+	.company-slider-inner {
+		-webkit-transition: 0.6s;
+		-moz-transition: 0.6s;
+		transition: 0.6s;
+		overflow: hidden;
+		display: flex;
+	}
+	.company-slider-indicators {
+		margin-top: 220px;
+		position: absolute;
+		z-index: 15;
+		display: flex;
+		margin-left: 130px;
+		list-style: none;
+	}
+}

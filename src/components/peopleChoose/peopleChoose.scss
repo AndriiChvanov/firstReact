@@ -1,0 +1,25 @@
+.peopleChoose {
+	background-image: url('../../img/peopleChoose.jpg');
+	height: 692px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 1920px;
+	margin: 0 auto;
+	position: relative;
+}
+@media (max-width: 1540px) {
+	.peopleChoose {
+		max-width: 1519px;
+		height: 550px;
+			
+	}
+}
+@media screen and (max-device-width: 393px){
+	.peopleChoose {
+	background-image: url('../../img/small/people.jpg');
+	height: 3250px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	position: relative;
+	}
+}

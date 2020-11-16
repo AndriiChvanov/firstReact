@@ -1,0 +1,164 @@
+.main {
+	background-image: url("../../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1920px;
+	height: 807px;
+
+	.container {
+		.main__container {
+			margin-top: 90px;
+			display: flex;
+
+			.main__info {
+				h1 {
+					width: 750px;
+					height: 170px;
+					font-family: "RobotoBold";
+					font-weight: 700;
+					font-size: 70px;
+					line-height: 121.19%;
+					color: #ffffff;
+				}
+
+				p {
+					margin-top: 30px;
+					font-family: "RobotoRegular";
+					font-size: 18px;
+					line-height: 28px;
+					color: #ffffff;
+				}
+
+				.info__btn {
+					position: relative;
+					width: 337px;
+					height: 62px;
+					margin-top: 40px;
+					background: linear-gradient(180.62deg, #83df46 0.53%, #58a027 99.47%);
+					box-shadow: 0px 3px 1px rgba(70, 126, 32, 0.8),
+						inset 0px 5px 5px -1px #86ed41;
+					border-radius: 100px;
+
+					font-family: "RobotoBlack";
+					font-size: 20px;
+					line-height: 23px;
+					text-align: center;
+					letter-spacing: 0.02em;
+					color: #ffffff;
+					text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+
+					&:hover {
+						background: linear-gradient(
+							180.62deg,
+							#83df46 0.53%,
+							#58a027 99.47%
+						);
+						box-shadow: 0px 15px 30px 15px rgba(106, 195, 46, 0.2),
+							0px 3px 1px rgba(70, 126, 32, 0.8), inset 0px 5px 5px -1px #86ed41;
+						border-radius: 100px;
+					}
+				}
+			}
+
+			.main__promo {
+				margin-top: 380px;
+				margin-left: auto;
+
+				.promo__btn {
+					width: 290px;
+					height: 106px;
+					background: rgba(47, 43, 48, 0.8);
+					border-radius: 69.5px;
+					font-family: "RobotoBlack";
+					font-size: 20px;
+					line-height: 186%;
+					color: #ffffff;
+
+					span {
+						color: #6ac32e;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1540px) {
+	.main {
+		max-width: 1519px;
+		max-height: 661px;
+
+		.container {
+			.main__container {
+				margin-top: 45px;
+
+				.main__promo {
+					margin-top: auto;
+					margin-left: auto;
+				}
+				.main__info {
+					h1 {
+						width: 682px;
+						height: 114px;
+						font-size: 70px;
+						line-height: 110.69%;
+						text-align: left;
+					}
+					p {
+						padding-top: 30px;
+						font-size: 18px;
+						line-height: 26px;
+						text-align: left;
+						width: 682px;
+
+						height: 78px;
+						color: #bdbdbd;
+						margin-bottom: 40px;
+					}
+					.info__btn {
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 393px) {
+	.main {
+		padding-top: 30px;
+		background-image: url("../../img/small/main.jpg");
+		height: 661px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0 auto;
+		position: relative;
+		max-width: 1920px;
+		max-height: 661px;
+		.container {
+			.main__container {
+				margin-top: 0px;
+				.main__promo {
+					display: none;
+				}
+
+				.main__info {
+					h1 {
+						font-size: 50px;
+						text-align: center;
+					}
+					p {
+						padding-top: 0px;
+						text-align: center;
+					}
+					.info__btn {
+						margin-left: 150px;
+						margin-top: 0px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,179 @@
+.promo {
+	margin: 0 auto;
+	position: relative;
+	margin-top: 200px;
+	height: 563px;
+	overflow: hidden;
+	background-image: url("../../img/Smuzi.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	max-width: 1920px;
+
+	.container {
+		.promo__container {
+			padding-top: 148px;
+
+			h1 {
+				font-family: "RobotoBlack";
+				font-style: normal;
+				font-weight: 900;
+				font-size: 40px;
+				line-height: 150%;
+				color: #ffffff;
+				width: 499px;
+				height: 120px;
+
+				span {
+					font-family: "RobotoBlack";
+					font-style: normal;
+					font-weight: 900;
+					font-size: 40px;
+					line-height: 150%;
+					color: #6ac32e;
+				}
+			}
+
+			p {
+				margin-top: 20px;
+				width: 471px;
+				height: 63px;
+				font-family: "RobotoRegular";
+				font-weight: normal;
+				font-size: 16px;
+				line-height: 130%;
+				color: rgba(255, 255, 255, 0.5);
+
+				span {
+					font-family: "RobotoRegular";
+					font-style: normal;
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 130%;
+					color: #ffffff;
+				}
+			}
+
+			button {
+				margin-top: 30px;
+				width: 337px;
+				height: 62px;
+				background: linear-gradient(180.62deg, #83df46 0.53%, #58a027 99.47%);
+				box-shadow: 0px 3px 1px rgba(70, 126, 32, 0.8),
+					inset 0px 5px 5px -1px #86ed41, 0px 3px 1px rgba(70, 126, 32, 0.8),
+					inset 0px 5px 5px -1px #86ed41;
+				border-radius: 100px;
+				font-family: "RobotoBlack";
+				font-weight: 900;
+				font-size: 20px;
+				line-height: 23px;
+				text-align: center;
+				letter-spacing: 0.02em;
+				color: #ffffff;
+				text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+				&:hover {
+					background: linear-gradient(180.62deg, #83df46 0.53%, #58a027 99.47%);
+					box-shadow: 0px 15px 30px 15px rgba(106, 195, 46, 0.2),
+						0px 3px 1px rgba(70, 126, 32, 0.8), inset 0px 5px 5px -1px #86ed41;
+					border-radius: 100px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1540px) {
+	.promo {
+		max-width: 1519px;
+		height: 450px;
+		.container {
+			.promo__container {
+				padding-top: 100px;
+			}
+		}
+	}
+}
+@media screen and (max-device-width: 393px) {
+	.promo {
+		margin-top: 500px;
+		height: 530px;
+		background: url("../../img/small/promo.png") no-repeat;
+		.container {
+			.promo__container {
+				padding-top: 100px;
+
+				h1 {
+					font-family: "RobotoBlack";
+					font-style: normal;
+					font-weight: 900;
+					font-size: 25px;
+					line-height: 150%;
+					text-align: center;
+					color: #ffffff;
+					width: 300px;
+					height: 120px;
+
+					span {
+						font-family: "RobotoBlack";
+						font-style: normal;
+						font-weight: 900;
+						font-size: 25px;
+						line-height: 150%;
+						text-align: center;
+						color: #6ac32e;
+					}
+				}
+
+				p {
+					text-align: center;
+					margin-top: 20px;
+					width: 300px;
+					height: 63px;
+					font-family: "RobotoRegular";
+					font-weight: normal;
+					font-size: 16px;
+					line-height: 130%;
+					color: rgba(255, 255, 255, 0.5);
+
+					span {
+						font-family: "RobotoRegular";
+						font-style: normal;
+						font-weight: normal;
+						font-size: 16px;
+						line-height: 130%;
+						color: #ffffff;
+					}
+				}
+
+				button {
+					margin-top: 70px;
+					width: 337px;
+					height: 62px;
+					background: linear-gradient(180.62deg, #83df46 0.53%, #58a027 99.47%);
+					box-shadow: 0px 3px 1px rgba(70, 126, 32, 0.8),
+						inset 0px 5px 5px -1px #86ed41, 0px 3px 1px rgba(70, 126, 32, 0.8),
+						inset 0px 5px 5px -1px #86ed41;
+					border-radius: 100px;
+					font-family: "RobotoBlack";
+					font-weight: 900;
+					font-size: 20px;
+					line-height: 23px;
+					text-align: center;
+					letter-spacing: 0.02em;
+					color: #ffffff;
+					text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+					&:hover {
+						background: linear-gradient(
+							180.62deg,
+							#83df46 0.53%,
+							#58a027 99.47%
+						);
+						box-shadow: 0px 15px 30px 15px rgba(106, 195, 46, 0.2),
+							0px 3px 1px rgba(70, 126, 32, 0.8), inset 0px 5px 5px -1px #86ed41;
+						border-radius: 100px;
+					}
+				}
+			}
+		}
+	}
+}

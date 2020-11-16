@@ -1,0 +1,312 @@
+.reviews {
+	height: 850px;
+	background: url("../../img/reviews.jpg") no-repeat;
+	max-width: 100%;
+	-moz-background-size: 100%;
+	/* Firefox 3.6+ */
+	-webkit-background-size: 100%;
+	/* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%;
+	/* Opera 9.6+ */
+	background-size: 100%;
+
+	.container {
+		.reviews__container {
+			padding-top: 130px;
+			display: flex;
+
+			.reviews__form {
+				.errors__m {
+					font-family: "RobotoRegular";
+					font-size: 14px;
+					color: red;
+					opacity: 0.8;
+					position: relative;
+				}
+				h1 {
+					font-family: "RobotoBlack";
+					font-weight: 900;
+					font-size: 40px;
+					line-height: 150%;
+					color: #2f2b30;
+					margin-bottom: 70px;
+				}
+
+				span {
+					font-family: "RobotoBold";
+					font-size: 20px;
+					line-height: 121.19%;
+					color: #2f2b30;
+				}
+
+				p {
+					font-family: "RobotoRegular";
+					font-size: 16px;
+					line-height: 150%;
+					color: rgba(47, 43, 48, 0.5);
+				}
+			}
+
+			.form__container {
+				margin-top: 25px;
+				display: flex;
+				width: 520px;
+				height: 316px;
+
+				.input__left {
+					input {
+						font-family: "RobotoRegular";
+						font-size: 14px;
+						line-height: 150%;
+					}
+
+					input::-webkit-input-placeholder,
+					textarea::-webkit-input-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+
+					input:-moz-placeholder,
+					textarea:-moz-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+
+					input::-moz-placeholder,
+					textarea::-moz-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+
+					input:-ms-input-placeholder,
+					textarea:-ms-input-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+				}
+
+				.input__right {
+					margin-left: -135px;
+					width: 135px;
+					height: 150px;
+					border: 1.5px solid rgba(106, 195, 46, 0.5);
+					box-sizing: border-box;
+					border-radius: 20px;
+					text-align: center;
+
+					input[type="file"] {
+						display: none;
+					}
+
+					label {
+						padding-left: 28px;
+
+						h1 {
+							width: 135px;
+							height: 150px;
+							font-family: "RobotoRegular";
+							font-size: 14px;
+							line-height: 150%;
+							color: rgba(47, 43, 48, 0.34);
+							opacity: 0.5;
+							padding: 45px 45px;
+							cursor: pointer;
+						}
+					}
+
+					input::-webkit-input-placeholder,
+					textarea::-webkit-input-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+
+					input:-moz-placeholder,
+					textarea:-moz-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+
+					input::-moz-placeholder,
+					textarea::-moz-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+
+					input:-ms-input-placeholder,
+					textarea:-ms-input-placeholder {
+						color: rgba(47, 43, 48, 0.34);
+						opacity: 0.5;
+					}
+				}
+
+				.btn1 {
+					width: 365px;
+					height: 40px;
+					border: 1.5px solid rgba(106, 195, 46, 0.5);
+					border-radius: 100px;
+					padding-left: 28px;
+					display: flex;
+
+					p {
+						cursor: pointer;
+						margin: 8px 4px;
+						width: 21px;
+						height: 21px;
+						opacity: 1;
+						background: url("../../img/starInp.png") no-repeat;
+					}
+
+					p:hover {
+						opacity: 1;
+						background: url("../../img/starInpHover.png") no-repeat;
+					}
+
+					p.active {
+						opacity: 1;
+						background: url("../../img/starInpHover.png") no-repeat;
+					}
+				}
+
+				.mt15 {
+					margin-top: 15px;
+				}
+
+				.review {
+					margin-top: 15px;
+					width: 520px;
+					height: 151px;
+					border: 1.5px solid rgba(106, 195, 46, 0.5);
+					border-radius: 20px;
+					padding-left: 28px;
+					padding-bottom: 106px;
+				}
+			}
+
+			.enter__reviews {
+				margin-top: 380px;
+				width: 307.6px;
+				height: 62px;
+				margin-left: -522px;
+				background: linear-gradient(180.62deg, #83df46 0.53%, #58a027 99.47%);
+				box-shadow: 0px 3px 1px rgba(70, 126, 32, 0.8),
+					inset 0px 5px 5px -1px #86ed41;
+				border-radius: 100px;
+				font-family: "RobotoBlack";
+				font-weight: 900;
+				font-size: 20px;
+				line-height: 23px;
+				text-align: center;
+				letter-spacing: 0.02em;
+				color: #ffffff;
+				text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+
+				&:hover {
+					background: linear-gradient(180.62deg, #83df46 0.53%, #58a027 99.47%);
+					box-shadow: 0px 15px 30px 15px rgba(106, 195, 46, 0.2),
+						0px 3px 1px rgba(70, 126, 32, 0.8), inset 0px 5px 5px -1px #86ed41;
+					border-radius: 100px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1540px) {
+	.reviews-slider {
+		margin-left: 100px ;
+		margin-top: 130px ;
+	}
+}
+@media screen and (max-device-width: 393px) {
+	.reviews-slider {
+		margin-left: 15px ;
+		margin-top: 100px ;
+	}
+	.reviews {
+		background: white;
+		height: 1450px;
+		.container {
+			.reviews__container {
+				padding-top: 0px;
+				display: inline-block;
+				.reviews__form {
+					width: 315px;
+
+					text-align: center;
+					h1 {
+						width: 315px;
+						font-family: "RobotoBlack";
+						font-weight: 900;
+						font-size: 25px;
+						line-height: 150%;
+						text-align: center;
+						color: #2f2b30;
+						margin-bottom: 40px;
+					}
+
+					span {
+						font-family: "RobotoBold";
+						font-size: 20px;
+						line-height: 121.19%;
+						color: #2f2b30;
+					}
+
+					p {
+						margin-top: 10px;
+						width: 315px;
+						font-family: "RobotoRegular";
+						font-size: 16px;
+						line-height: 150%;
+						color: rgba(47, 43, 48, 0.5);
+					}
+				}
+
+				.form__container {
+					display: inline-block;
+					.btn1 {
+						width: 315px;
+						height: 40px;
+						border: 1.5px solid rgba(106, 195, 46, 0.5);
+						border-radius: 100px;
+						padding-left: 28px;
+						display: flex;
+					}
+					.review {
+						margin-left: -210px;
+						margin-top: 15px;
+						width: 315px;
+						height: 151px;
+						border: 1.5px solid rgba(106, 195, 46, 0.5);
+						border-radius: 20px;
+						padding-left: 28px;
+						padding-bottom: 106px;
+					}
+					.input__right {
+						margin-top: 20px;
+						margin-left: 0;
+						width: 315px;
+						height: 40px;
+						label {
+							padding-left: 28px;
+							h1 {
+								width: 315px;
+								height: 40px;
+								font-family: "RobotoRegular";
+								font-size: 14px;
+								line-height: 150%;
+								color: rgba(47, 43, 48, 0.34);
+								opacity: 0.5;
+								padding: 0;
+								cursor: pointer;
+							}
+						}
+					}
+					.enter__reviews {
+					margin-top: 30px;
+					margin-left: -210px;
+					}
+				}
+			}
+		}
+	}
+}
